@@ -1,3 +1,5 @@
+![Disney Plane Image](Images/DisneyAirline.webp)
+
 # Disney Airline: Feature Exploration Using Classification Modeling
 
 Author: Emily Marsh
@@ -30,11 +32,19 @@ Compared to the F1 Score of previous models, the XGBoost Model vastly improved t
 * **The F1 Score Associated with the Optimized XGBoost Model was 0.94**
 * **The F1 Score Associated with the Optimized Random Forest was 0.933**
 
+![Model Performance Metrics Image](Images/ModelPerformanceMetrics.png)
+
 # Final Model Visualizations
 
 Since the XGboost Model was confirmed to be the most successful according to the F1 score metric, the model was run with the entire dataset. The resulting **F1 score was lifted to a 0.96 performance on unseen data**. The high performance of the model on unseen data was confirmed in both a classification matrix visualization as well as a ROC Curve visualization. 
 
+![Confusion Matrix Image](Images/ConfusionMatrixFinalModel.png)
+
+![ROC Curve Final Model Image](Images/ROCCurveFinalModel.png)
+
 ## Conclusions
+
+![SHAP Image](Images/SHAPValuewaterfall.png)
 
 Disney has a final classification model for prediction with an **F1 Score of 96% performance on unseen test data and an AUC score of 96% performance on unseen test data**. The model was used to make predictions on whether an airline customer would be **Satisfied or Dissatisfied** with their airline experience in order to make feature recommendations to decrease the number of dissatisfied customers.
 

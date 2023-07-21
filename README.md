@@ -44,8 +44,6 @@ Since the XGboost Model was confirmed to be the most successful according to the
 
 ## Conclusions
 
-![SHAP Image](Images/SHAPValuewaterfall.png)
-
 Disney has a final classification model for prediction with an **F1 Score of 96% performance on unseen test data and an AUC score of 96% performance on unseen test data**. The model was used to make predictions on whether an airline customer would be **Satisfied or Dissatisfied** with their airline experience in order to make feature recommendations to decrease the number of dissatisfied customers.
 
 The three features, as determined by the final model were:
@@ -53,6 +51,8 @@ The three features, as determined by the final model were:
 * **Seat Comfort**
 * **Inflight Entertainment**
 * **Disloyal Customers**
+
+![SHAP Image](Images/SHAPValuewaterfall.png)
 
 ## Recommendations
 

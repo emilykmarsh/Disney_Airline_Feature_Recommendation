@@ -88,7 +88,7 @@ To continue towards the goal of prioritizing feature recommendations that will l
 
 ## For More Information
 
-The full analysis and process by which these conclusions were reached can be found in the [Jupyter Notebook](Notebook.ipynb) or by reviewing the summary presentation.
+The full analysis and process by which these conclusions were reached can be found in the [Jupyter Notebook](Notebook.ipynb) or by reviewing the [summary presentation](Presentation.pdf).
 
 For additional questions, contact Emily Marsh: marshemily2@gmail.com
 

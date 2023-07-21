@@ -93,3 +93,22 @@ The full analysis and process by which these conclusions were reached can be fou
 For additional questions, contact Emily Marsh: marshemily2@gmail.com
 
 ## Repository Structure
+
+ |── Data
+ 
+     ├── Processed
+ 
+     └── Raw
+ 
+ ├── Images
+
+ |── Output
+ 
+ ├── Images
+ 
+ ├── README.md
+ 
+ ├── [Presentation.pdf](Presentation.pdf)
+ 
+ └── [Project.ipynb](Project.ipynb)
+

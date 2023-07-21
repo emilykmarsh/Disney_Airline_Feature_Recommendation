@@ -73,6 +73,10 @@ To continue towards the goal of prioritizing feature recommendations that will l
 * **Additional exploration into the optimized parameters for the LSTM and XGBoost Models to increase F1 scores**
 * **Expand Dataset to better represent the potential customer base for a Disney Branded Airline**
 
+## Reproducibility
+
+To reproduce the findings of this team, a full copy of this repository can be run by following the link [HERE](https://drive.google.com/drive/folders/1ddeMwZPcPIYqWuYR8ReOcvceplWLGUAt?usp=drive_link)
+
 ## References
 
 * [What If the Disney Airline Rumor Was True](https://airlinegeeks.com/2019/07/23/what-if-the-disney-airline-rumor-was-true/)

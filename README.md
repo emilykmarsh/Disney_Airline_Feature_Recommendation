@@ -18,6 +18,8 @@ The dataset used for this project is a dataset from **Kaggle** and consists of *
 * **Satisfied**
 * **Dissatisfied**
 
+![Distribution Image](Images/ValueCountsofTargetVariable.png)
+
 Since the model will be used for identifying feature importance as well as predicting the satisfaction of the customer, **F1 Score** will be used to assess the accuracy of the models developed using the dataset. The reason for using an **F1 score** versus any other metrics of accuracy is that eliminating false negatives and false positives will ensure the accuracy of the feature recommendations. This model will be designed to be proactive as well as reactive, therefore eliminating false positives and negatives will be the goal.
 
 ## Methods
@@ -72,6 +74,10 @@ To continue towards the goal of prioritizing feature recommendations that will l
 * **Conduct Additional Research into other features identified as being important by the SHAP values**
 * **Additional exploration into the optimized parameters for the LSTM and XGBoost Models to increase F1 scores**
 * **Expand Dataset to better represent the potential customer base for a Disney Branded Airline**
+
+## Additional Tableau Visualizations
+
+Additional visualizations can be found by following the link [HERE](https://public.tableau.com/app/profile/emily.marsh8536)
 
 ## Reproducibility
 

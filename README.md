@@ -13,7 +13,7 @@ The Disney Company is interested in entering the airline industry as a way to cr
 
 ## Dataset
 
-The dataset used for this project is a dataset from **Kaggle** and consists of **129,880 rows** and **23 columns**. This data was collected by an airline organization. The actual name of the company is not given due to privacy. The dataset consists of the details of customers who have already flown with this airline company. The feedback of the customers on various features of their flight and their flight data has been consolidated. The columns of the dataset include the features **Satisfaction, Gender, Customer Type, Age, Type of Travel, Class, Flight Distance, Seat Comfort, Departure/Arrival Time Convenience, Food & Drink, Gate Location, Inflight Wifi Service, Inflight Entertainment, Online Support, Ease of Online Booking, On-Board Service, Leg Room Service, Baggage Handling, Checkin Service, Cleanliness, Online Boarding, Departure Delay in Minutes, and Arrival Delay in Minutes**. Individuals have two values for satisfaction:
+The [dataset](https://github.com/emilykmarsh/Disney_Airline_Feature_Recommendation/blob/9450703c3e81e29d05a14f87ca42df287f4caee5/Data/Raw/Invistico_Airline.csv) used for this project is a dataset from **Kaggle** and consists of **129,880 rows** and **23 columns**. This data was collected by an airline organization. The actual name of the company is not given due to privacy. The dataset consists of the details of customers who have already flown with this airline company. The feedback of the customers on various features of their flight and their flight data has been consolidated. The columns of the dataset include the features **Satisfaction, Gender, Customer Type, Age, Type of Travel, Class, Flight Distance, Seat Comfort, Departure/Arrival Time Convenience, Food & Drink, Gate Location, Inflight Wifi Service, Inflight Entertainment, Online Support, Ease of Online Booking, On-Board Service, Leg Room Service, Baggage Handling, Checkin Service, Cleanliness, Online Boarding, Departure Delay in Minutes, and Arrival Delay in Minutes**. Individuals have two values for satisfaction:
 
 * **Satisfied**
 * **Dissatisfied**
@@ -21,6 +21,8 @@ The dataset used for this project is a dataset from **Kaggle** and consists of *
 ![Distribution Image](Images/ValueCountsofTargetVariable.png)
 
 Since the model will be used for identifying feature importance as well as predicting the satisfaction of the customer, **F1 Score** will be used to assess the accuracy of the models developed using the dataset. The reason for using an **F1 score** versus any other metrics of accuracy is that eliminating false negatives and false positives will ensure the accuracy of the feature recommendations. This model will be designed to be proactive as well as reactive, therefore eliminating false positives and negatives will be the goal.
+
+To reproduce the findings of this team, a full copy of this notebook can be run by following the link [HERE](https://colab.research.google.com/drive/1h3zjKbLhFwWIenr_yGwgtKcO93ECpgwd?usp=sharing) to the google colab notebook. Installations must be run first, and then the runtime restarted. Once the restart has been completed, the entire notebook can be run.
 
 ## Methods
 
@@ -78,10 +80,6 @@ To continue towards the goal of prioritizing feature recommendations that will l
 ## Additional Tableau Visualizations
 
 Additional visualizations can be found by following the link [HERE](https://public.tableau.com/app/profile/emily.marsh8536)
-
-## Reproducibility
-
-To reproduce the findings of this team, a full copy of this repository can be run by following the link [HERE](https://drive.google.com/drive/folders/1ddeMwZPcPIYqWuYR8ReOcvceplWLGUAt?usp=drive_link)
 
 ## References
 
